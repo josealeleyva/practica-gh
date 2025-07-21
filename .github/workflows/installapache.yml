@@ -10,7 +10,7 @@ on:
 
 jobs:
   install-apache:
-    runs-on: self-hosted
+    runs-on: josepc
     steps:
     - name: Checkout del repositorio
       uses: actions/checkout@v3
